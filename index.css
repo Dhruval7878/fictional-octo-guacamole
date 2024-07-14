@@ -1,0 +1,569 @@
+.outer-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 205px;
+  height: 468px;
+}
+.main-top-bar {
+  left: 69.1px;
+  width: 65.8px;
+  height: 11px;
+}
+.hashtags,
+.main-top-bar,
+.sounds,
+.users {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+}
+.users {
+  left: 0;
+  width: 46px;
+  height: 18px;
+}
+.hashtags,
+.sounds {
+  height: 14px;
+}
+.sounds {
+  left: 58.1px;
+  color: #ab9e9e;
+  width: 55.9px;
+}
+.hashtags {
+  left: 118.4px;
+  color: var(--color-black);
+  width: 66.9px;
+}
+.sub-top-bar {
+  position: absolute;
+  top: 31px;
+  left: 16.4px;
+  width: 185.3px;
+  height: 18px;
+  color: #969393;
+}
+.topbar-child,
+.topbar-item {
+  position: absolute;
+  top: 53px;
+  height: 1px;
+}
+.topbar-child {
+  left: 0;
+  width: 205px;
+  object-fit: contain;
+}
+.topbar-item {
+  left: 130.5px;
+  border-top: 1px solid #030303;
+  box-sizing: border-box;
+  width: 72.3px;
+}
+.topbar {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 205px;
+  height: 54px;
+  font-size: var(--font-size-xs);
+}
+.bottom-bar-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 1px solid #cbb9b9;
+  box-sizing: border-box;
+  width: 206px;
+  height: 1px;
+}
+.bottom-bar-icons-child {
+  position: absolute;
+  top: 3px;
+  left: 89.9px;
+  width: 17.5px;
+  height: 16px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.home-icon {
+  position: absolute;
+  top: 0;
+  left: 5.5px;
+  width: 14.3px;
+  height: 13px;
+  overflow: hidden;
+}
+.compass-icon,
+.home,
+.home1 {
+  position: absolute;
+  left: 0;
+  width: 32.9px;
+}
+.home1 {
+  top: 14px;
+  display: inline-block;
+  height: 10px;
+}
+.compass-icon,
+.home {
+  top: 0;
+  height: 24px;
+}
+.compass-icon {
+  left: 10.9px;
+  width: 14.3px;
+  height: 13px;
+  overflow: hidden;
+}
+.discover1 {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  display: inline-block;
+  width: 36.2px;
+}
+.discover,
+.inbox-icon {
+  position: absolute;
+  top: 0;
+  left: 37.3px;
+  width: 36.2px;
+  height: 24px;
+}
+.inbox-icon {
+  left: 2.2px;
+  width: 17.5px;
+  height: 13px;
+  overflow: hidden;
+}
+.inbox1 {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  display: inline-block;
+  width: 23px;
+}
+.inbox,
+.person-icon {
+  position: absolute;
+  top: 0;
+  left: 129.3px;
+  width: 23px;
+  height: 24px;
+}
+.person-icon {
+  left: 6.6px;
+  width: 14.3px;
+  height: 13px;
+}
+.profile1 {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  display: inline-block;
+  width: 27.4px;
+}
+.bottom-bar,
+.bottom-bar-icons,
+.profile {
+  position: absolute;
+  top: 0;
+  left: 171px;
+  width: 27.4px;
+  height: 24px;
+}
+.bottom-bar,
+.bottom-bar-icons {
+  left: 3.3px;
+  width: 198.4px;
+}
+.bottom-bar {
+  top: 445px;
+  left: 0;
+  width: 205px;
+}
+.discover-more-button-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: #fe2c55;
+  width: 82.2px;
+  height: 18.8px;
+}
+.discover-more {
+  position: absolute;
+  top: 4px;
+  left: 9.8px;
+  display: inline-block;
+  width: 69.9px;
+  height: 9.4px;
+}
+.discover-more-button {
+  position: absolute;
+  top: 346px;
+  left: 70.2px;
+  width: 82.2px;
+  height: 18.8px;
+  mix-blend-mode: normal;
+  color: var(--color-white);
+}
+.b,
+.youareincluded {
+  position: absolute;
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 66.9px;
+}
+.b {
+  left: 11px;
+  width: 6.6px;
+}
+.item-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 205px;
+  height: 23px;
+}
+.item-child {
+  top: 3px;
+  left: 5.5px;
+  border-radius: 50%;
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  width: 16.4px;
+  height: 14px;
+}
+.item,
+.item-child,
+.posts {
+  position: absolute;
+}
+.posts {
+  top: 8px;
+  left: 162.2px;
+  font-size: var(--font-size-7xs);
+  display: inline-block;
+  color: var(--color-darkgray-100);
+  width: 36.2px;
+}
+.item {
+  top: 0;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.lerenoptiktok {
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 58.1px;
+}
+.item1,
+.k-posts,
+.lerenoptiktok {
+  position: absolute;
+}
+.k-posts {
+  top: 8px;
+  left: 159px;
+  font-size: var(--font-size-7xs);
+  display: inline-block;
+  color: var(--color-darkgray-100);
+  width: 39.5px;
+}
+.item1 {
+  top: 138px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.womenoftiktok {
+  position: absolute;
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 70.2px;
+}
+.item2 {
+  position: absolute;
+  top: 161px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.m-posts1,
+.smallbusiness {
+  position: absolute;
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 63.6px;
+}
+.m-posts1 {
+  top: 8px;
+  left: 159px;
+  font-size: var(--font-size-7xs);
+  color: var(--color-darkgray-100);
+  width: 40.6px;
+}
+.item3 {
+  position: absolute;
+  top: 184px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.m-posts2,
+.selfcare {
+  position: absolute;
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 37.3px;
+}
+.m-posts2 {
+  top: 8px;
+  left: 160.1px;
+  font-size: var(--font-size-7xs);
+  color: var(--color-darkgray-100);
+  width: 38.4px;
+}
+.item4 {
+  position: absolute;
+  top: 207px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.carcommunity,
+.m-posts3 {
+  position: absolute;
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 62.5px;
+}
+.m-posts3 {
+  top: 8px;
+  left: 163.3px;
+  font-size: var(--font-size-7xs);
+  color: var(--color-darkgray-100);
+  width: 35.1px;
+}
+.item5 {
+  position: absolute;
+  top: 230px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.summervibes {
+  position: absolute;
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 59.2px;
+}
+.item6 {
+  top: 253px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.item6,
+.item7,
+.yoga {
+  position: absolute;
+}
+.yoga {
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 21.9px;
+}
+.item7 {
+  top: 276px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.k-posts1,
+.summerlook {
+  position: absolute;
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 53.7px;
+}
+.k-posts1 {
+  top: 8px;
+  left: 155.7px;
+  font-size: var(--font-size-7xs);
+  color: var(--color-darkgray-100);
+  width: 43.9px;
+}
+.item8 {
+  position: absolute;
+  top: 299px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.friendshipgoals {
+  position: absolute;
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 68px;
+}
+.item9 {
+  position: absolute;
+  top: 322px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.k-posts2,
+.nbafinals {
+  position: absolute;
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 40.6px;
+}
+.k-posts2 {
+  top: 8px;
+  left: 161.1px;
+  font-size: var(--font-size-7xs);
+  color: var(--color-darkgray-100);
+  width: 37.3px;
+}
+.item10 {
+  position: absolute;
+  top: 345px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.k-posts3,
+.thelittlemermaid {
+  position: absolute;
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 72.4px;
+}
+.k-posts3 {
+  top: 8px;
+  left: 154.6px;
+  font-size: var(--font-size-7xs);
+  color: var(--color-darkgray-100);
+  width: 43.9px;
+}
+.item11 {
+  position: absolute;
+  top: 115px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.k-posts4 {
+  position: absolute;
+  top: 7px;
+  left: 156.8px;
+  font-size: var(--font-size-7xs);
+  display: inline-block;
+  color: var(--color-darkgray-100);
+  width: 41.7px;
+}
+.item12 {
+  position: absolute;
+  top: 92px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.k-posts5,
+.min {
+  position: absolute;
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 20.8px;
+}
+.k-posts5 {
+  top: 9px;
+  left: 155.7px;
+  font-size: var(--font-size-7xs);
+  color: var(--color-darkgray-100);
+  width: 43.9px;
+}
+.item13 {
+  position: absolute;
+  top: 69px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.longervideos,
+.m-posts7 {
+  position: absolute;
+  top: 5px;
+  left: 29.6px;
+  display: inline-block;
+  width: 57px;
+}
+.m-posts7 {
+  top: 8px;
+  left: 164.4px;
+  font-size: var(--font-size-7xs);
+  color: var(--color-darkgray-100);
+  width: 35.1px;
+}
+.item14 {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.k-posts6 {
+  position: absolute;
+  top: 8px;
+  left: 155.7px;
+  font-size: var(--font-size-7xs);
+  display: inline-block;
+  color: var(--color-darkgray-100);
+  width: 42.8px;
+}
+.body,
+.item15 {
+  position: absolute;
+  top: 23px;
+  left: 0;
+  width: 205px;
+  height: 23px;
+}
+.body {
+  top: 66px;
+  height: 368px;
+}
+.hashtag-screen {
+  width: 100%;
+  position: relative;
+  height: 469px;
+  text-align: left;
+  font-size: var(--font-size-5xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
